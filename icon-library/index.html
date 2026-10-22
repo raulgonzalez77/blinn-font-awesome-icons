@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Icon Library</title>
+
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script src="js/icons.js" defer></script>
+    <script src="js/scripts.js" defer></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <header class="page-header">
+        <h1>Icon Library</h1>
+
+        <p>Browse or search the available icons. Click an icon to copy its name, then paste it into the icon field in Cascade.</p>
+      </header>
+
+      <section class="search-section" aria-label="Search icons">
+        <label for="icon-search">Search icons</label>
+
+        <input type="search" id="icon-search" placeholder="Try student, calendar, phone..." autocomplete="off" />
+
+        <p id="result-count" aria-live="polite"></p>
+      </section>
+
+      <section aria-label="Available icons">
+        <div id="icon-grid" class="icon-grid"></div>
+      </section>
+
+      <p id="copy-status" class="sr-only" role="status" aria-live="polite"></p>
+    </main>
+  </body>
+</html>
