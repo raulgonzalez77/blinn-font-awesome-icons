@@ -81,10 +81,11 @@
                 </button>
             </div>
 
-            <iframe
-                class="cms-modal-frame"
-                title="Icon Library Test">
-            </iframe>
+        <iframe
+            class="cms-modal-frame"
+            title="Icon Library"
+            allow="clipboard-write">
+        </iframe>
         </div>
     `;
 
