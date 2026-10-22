@@ -73,7 +73,7 @@
              aria-labelledby="cms-modal-title">
 
             <div class="cms-modal-header">
-                <h2 id="cms-modal-title">Icon Library Test</h2>
+                <h2 id="cms-modal-title">Icon Library</h2>
                 <button type="button"
                         class="cms-modal-close"
                         aria-label="Close modal">
